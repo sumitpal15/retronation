@@ -122,6 +122,8 @@ li{
 .exploreButton{
     text-decoration: none;
     margin-left: 50%;
+    position: absolute;
+    bottom: 20%;
 }
 
 
