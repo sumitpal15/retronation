@@ -198,7 +198,6 @@ section{
     text-align: justify;
     text-justify: inter-word;
     font-size: 1.25rem;
-    word-spacing: 2px;
 }
 
 /* Third Page
@@ -261,9 +260,16 @@ section{
         animation: run 20s linear infinite;
         letter-spacing: 8px;
     }
+    .secondPage{
+        background-color: black;
+        border: 2px yellow solid;
+        margin-top: 100px;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
     .explore-page{
-        margin: 20px;
-        margin-top: 150px;
+        margin: 10px;
+        margin-top: 450px;
         text-align: justify;
         text-justify: inter-word;
         font-size: 1.25rem;
