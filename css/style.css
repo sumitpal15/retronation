@@ -70,8 +70,7 @@ nav{
     }
 }
 .logo{
-    font-family: 'Cinzel Decorative', cursive;
-    padding: 15px;
+    font-family: "Catamaran", sans-serif;
     font-size: 30px;
     letter-spacing: -1.7px;
 }
@@ -90,7 +89,7 @@ a.effect-shine:hover {
     }
 }
 .letterChange{
-    font-size: 45px;
+    font-size: 40px;
 }
 
 li{
@@ -101,12 +100,19 @@ li{
     color: white;
     text-decoration: none;
     transition: .6s;
+    animation: transitionInB 2s;
 }
 .element:hover{
     text-decoration: none;
     color: var(--pink);
-    letter-spacing: 2px;
-    background-color: #fff;
+    letter-spacing: 2.5px;
+    background-color: transparent;
+}
+.exploreButton{
+    text-decoration: none;
+    margin-left: 50%;
+    position: absolute;
+    bottom: 20%;
 }
 
 .elements{
@@ -118,12 +124,6 @@ li{
 .elements:hover{
     text-decoration: none;
     color: var(--pink);
-}
-.exploreButton{
-    text-decoration: none;
-    margin-left: 50%;
-    position: absolute;
-    bottom: 20%;
 }
 
 
@@ -138,7 +138,7 @@ section{
     cursor: pointer;
     text-decoration: none;
     position: absolute;
-    bottom: 20%;
+    bottom: 30%;
     padding-left: 100px;
     animation: transitionInB 2s;
 }
@@ -153,7 +153,7 @@ section{
     }
 }
 .text-box p{
-    font-size: 6em;
+    font-size: 7em;
     font-weight: 600;
     color: transparent;
     -webkit-text-stroke: 1.15px var(--pink);
@@ -206,3 +206,344 @@ section{
 /* .fifthPage{
     background-color:black;
 } */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .fullBack{
+        background: black;
+    }
+    .logo{
+        font-size: 28px;
+    }
+    .letterChange{
+        font-size: 38px;
+    }
+    
+    .text-box{
+        cursor: pointer;
+        text-decoration: none;
+        position: absolute;
+        bottom: 32%;
+        padding-left: 30px;
+        animation: transitionInB 2s;
+    }
+    .text-box p{
+        font-size: 3.8em;
+        font-weight: 600;
+        color: transparent;
+        -webkit-text-stroke: 1.15px var(--pink);
+        /* font-family: 'Cinzel Decorative', cursive;
+        font-family: 'Josefin Sans', sans-serif; */
+    }
+    .text-box h1{
+        font-size: 90px;
+        font-weight: 800;
+        /* font-family: 'Oswald', sans-serif; */
+        color: transparent;
+        -webkit-text-stroke: 1.15px white;
+        background: url(../images/back2.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: run 20s linear infinite;
+        letter-spacing: 8px;
+    }
+    .exploreButton{
+        text-decoration: none;
+        margin-left: 150px;
+        position: absolute;
+        bottom: 20%;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .fullBack{
+        background: black;
+    }
+    .logo{
+        font-size: 28px;
+    }
+    .letterChange{
+        font-size: 38px;
+    }
+    
+    .text-box{
+        cursor: pointer;
+        text-decoration: none;
+        position: absolute;
+        bottom: 30%;
+        padding-left: 40px;
+        animation: transitionInB 2s;
+    }
+    .text-box p{
+        font-size: 4em;
+        font-weight: 600;
+        color: transparent;
+        -webkit-text-stroke: 1.15px var(--pink);
+        /* font-family: 'Cinzel Decorative', cursive;
+        font-family: 'Josefin Sans', sans-serif; */
+    }
+    .text-box h1{
+        font-size: 95px;
+        font-weight: 800;
+        /* font-family: 'Oswald', sans-serif; */
+        color: transparent;
+        -webkit-text-stroke: 1.15px white;
+        background: url(../images/back2.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: run 20s linear infinite;
+        letter-spacing: 8px;
+    }
+    .exploreButton{
+        text-decoration: none;
+        margin-left: 250px;
+        position: absolute;
+        bottom: 20%;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)  and (max-width: 880px) {
+    .fullBack{
+        background: black;
+    }
+    .logo{
+        font-size: 28px;
+    }
+    .letterChange{
+        font-size: 38px;
+    }
+    
+    .text-box{
+        cursor: pointer;
+        text-decoration: none;
+        position: absolute;
+        bottom: 29%;
+        padding-left: 60px;
+        animation: transitionInB 2s;
+    }
+    .text-box p{
+        font-size: 4em;
+        font-weight: 600;
+        color: transparent;
+        -webkit-text-stroke: 1.15px var(--pink);
+        /* font-family: 'Cinzel Decorative', cursive;
+        font-family: 'Josefin Sans', sans-serif; */
+    }
+    .text-box h1{
+        font-size: 95px;
+        font-weight: 800;
+        /* font-family: 'Oswald', sans-serif; */
+        color: transparent;
+        -webkit-text-stroke: 1.15px white;
+        background: url(../images/back2.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: run 20s linear infinite;
+        letter-spacing: 8px;
+    }
+    .exploreButton{
+        text-decoration: none;
+        margin-left: 280px;
+        position: absolute;
+        bottom: 15%;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 880px) and (max-width: 992px) {
+    .fullBack{
+        background: black;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .letterChange{
+        font-size: 40px;
+    }
+    
+    .text-box{
+        cursor: pointer;
+        text-decoration: none;
+        position: absolute;
+        bottom: 30%;
+        padding-left: 40px;
+        animation: transitionInB 2s;
+    }
+    .text-box p{
+        font-size: 5em;
+        font-weight: 600;
+        color: transparent;
+        -webkit-text-stroke: 1.15px var(--pink);
+        /* font-family: 'Cinzel Decorative', cursive;
+        font-family: 'Josefin Sans', sans-serif; */
+    }
+    .text-box h1{
+        font-size: 95px;
+        font-weight: 800;
+        /* font-family: 'Oswald', sans-serif; */
+        color: transparent;
+        -webkit-text-stroke: 1.15px white;
+        background: url(../images/back2.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: run 20s linear infinite;
+        letter-spacing: 8px;
+    }
+    .element{
+        font-size: 3rem;
+        color: white;
+        text-decoration: none;
+        transition: .6s;
+        animation: transitionInB 2s;
+    }
+    .exploreButton{
+        text-decoration: none;
+        margin-left: 380px;
+        position: absolute;
+        bottom: 20%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .fullBack{
+        background: black;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .letterChange{
+        font-size: 40px;
+    }
+    
+    .text-box{
+        cursor: pointer;
+        text-decoration: none;
+        position: absolute;
+        bottom: 29%;
+        padding-left: 60px;
+        animation: transitionInB 2s;
+    }
+    .text-box p{
+        font-size: 4.5em;
+        font-weight: 600;
+        color: transparent;
+        -webkit-text-stroke: 1.15px var(--pink);
+        /* font-family: 'Cinzel Decorative', cursive;
+        font-family: 'Josefin Sans', sans-serif; */
+    }
+    .text-box h1{
+        font-size: 95px;
+        font-weight: 800;
+        /* font-family: 'Oswald', sans-serif; */
+        color: transparent;
+        -webkit-text-stroke: 1.15px white;
+        background: url(../images/back2.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: run 20s linear infinite;
+        letter-spacing: 8px;
+    }
+    .element{
+        font-size: 3rem;
+        color: white;
+        text-decoration: none;
+        transition: .6s;
+        animation: transitionInB 2s;
+    }
+    .exploreButton{
+        text-decoration: none;
+        margin-left: 380px;
+        position: absolute;
+        bottom: 20%;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .fullBack{
+        background: black;
+    }
+    .logo{
+        font-family: "Catamaran", sans-serif;
+        font-size: 30px;
+        letter-spacing: -1.7px;
+    }
+    .letterChange{
+        font-size: 40px;
+    }
+    .text-box{
+        cursor: pointer;
+        text-decoration: none;
+        position: absolute;
+        bottom: 30%;
+        padding-left: 100px;
+        animation: transitionInB 2s;
+    }
+    .text-box p{
+        font-size: 4.5em;
+        font-weight: 600;
+        color: transparent;
+        -webkit-text-stroke: 1.15px var(--pink);
+        /* font-family: 'Cinzel Decorative', cursive;
+        font-family: 'Josefin Sans', sans-serif; */
+    }
+    .text-box h1{
+        font-size: 95px;
+        font-weight: 800;
+        /* font-family: 'Oswald', sans-serif; */
+        color: transparent;
+        -webkit-text-stroke: 1.15px white;
+        background: url(../images/back2.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: run 20s linear infinite;
+        letter-spacing: 8px;
+    }
+}
+@media only screen and (min-width: 1350px) {
+    .fullBack{
+        background: black;
+    }
+    .logo{
+        font-family: "Catamaran", sans-serif;
+        font-size: 30px;
+        letter-spacing: -1.7px;
+    }
+    .letterChange{
+        font-size: 40px;
+    }
+    .exploreButton{
+        text-decoration: none;
+        margin-left: 600px;
+        position: absolute;
+        bottom: 20%;
+    }
+    .text-box{
+        cursor: pointer;
+        text-decoration: none;
+        position: absolute;
+        bottom: 30%;
+        padding-left: 100px;
+        animation: transitionInB 2s;
+    }
+    .text-box p{
+        font-size: 7em;
+        font-weight: 600;
+        color: transparent;
+        -webkit-text-stroke: 1.15px var(--pink);
+        /* font-family: 'Cinzel Decorative', cursive;
+        font-family: 'Josefin Sans', sans-serif; */
+    }
+    .text-box h1{
+        font-size: 150px;
+        font-weight: 800;
+        /* font-family: 'Oswald', sans-serif; */
+        color: transparent;
+        -webkit-text-stroke: 1.15px white;
+        background: url(../images/back2.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: run 20s linear infinite;
+        letter-spacing: 8px;
+    }
+
+}

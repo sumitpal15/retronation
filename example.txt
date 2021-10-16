@@ -1,0 +1,124 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .fullBack {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .fullBack {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .fullBack {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .fullBack {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  /* @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  } */
+
+
+
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  @media only screen and (max-width:500px){
+    .fullBack{
+        background: black;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .letterChange{
+        font-size: 30px;
+    }
+    
+    .text-box{
+        cursor: pointer;
+        text-decoration: none;
+        position: absolute;
+        bottom: 32%;
+        padding-left: 10px;
+        animation: transitionInB 2s;
+    }
+    .text-box p{
+        font-size: 3em;
+        font-weight: 600;
+        color: transparent;
+        -webkit-text-stroke: 1.15px var(--pink);
+        /* font-family: 'Cinzel Decorative', cursive;
+        font-family: 'Josefin Sans', sans-serif; */
+    }
+    .text-box h1{
+        font-size: 90px;
+        font-weight: 800;
+        /* font-family: 'Oswald', sans-serif; */
+        color: transparent;
+        -webkit-text-stroke: 1.15px white;
+        background: url(../images/back2.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: run 20s linear infinite;
+        letter-spacing: 8px;
+    }
+    .exploreButton{
+        text-decoration: none;
+        margin-left: 150px;
+        position: absolute;
+        bottom: 20%;
+    }
+    
+}
+
+@media only screen and (max-width:500px){
+    .fullBack{
+        background: orange;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .letterChange{
+        font-size: 30px;
+    }
+    
+    .text-box{
+        cursor: pointer;
+        text-decoration: none;
+        position: absolute;
+        bottom: 32%;
+        padding-left: 10px;
+        animation: transitionInB 2s;
+    }
+    .text-box p{
+        font-size: 3em;
+        font-weight: 600;
+        color: transparent;
+        -webkit-text-stroke: 1.15px var(--pink);
+        /* font-family: 'Cinzel Decorative', cursive;
+        font-family: 'Josefin Sans', sans-serif; */
+    }
+    .text-box h1{
+        font-size: 90px;
+        font-weight: 800;
+        /* font-family: 'Oswald', sans-serif; */
+        color: transparent;
+        -webkit-text-stroke: 1.15px white;
+        background: url(../images/back2.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: run 20s linear infinite;
+        letter-spacing: 8px;
+    }
+    .exploreButton{
+        text-decoration: none;
+        margin-left: 150px;
+        position: absolute;
+        bottom: 20%;
+    }
+    
+}
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
