@@ -259,7 +259,7 @@ section{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .fullBack{
-        background: black;
+        background: pink;
     }
     .logo{
         font-size: 28px;
@@ -306,7 +306,7 @@ section{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px)  and (max-width: 880px) {
     .fullBack{
-        background: black;
+        background: yellow;
     }
     .logo{
         font-size: 28px;
@@ -353,7 +353,7 @@ section{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 880px) and (max-width: 992px) {
     .fullBack{
-        background: black;
+        background: green;
     }
     .logo{
         font-size: 30px;
@@ -406,7 +406,7 @@ section{
 }
 @media only screen and (min-width: 992px) {
     .fullBack{
-        background: black;
+        background: red;
     }
     .logo{
         font-size: 30px;
@@ -460,7 +460,7 @@ section{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .fullBack{
-        background: black;
+        background: blue;
     }
     .logo{
         font-family: "Catamaran", sans-serif;
@@ -501,7 +501,7 @@ section{
 }
 @media only screen and (min-width: 1350px) {
     .fullBack{
-        background: black;
+        background: cyan;
     }
     .logo{
         font-family: "Catamaran", sans-serif;
