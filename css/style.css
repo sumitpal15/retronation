@@ -110,7 +110,8 @@ li{
 }
 .exploreButton{
     text-decoration: none;
-    margin-left: 50%;
+    text-align: center;
+    width: 100%;
     position: absolute;
     bottom: 20%;
 }
@@ -249,12 +250,12 @@ section{
         animation: run 20s linear infinite;
         letter-spacing: 8px;
     }
-    .exploreButton{
+    /* .exploreButton{
         text-decoration: none;
         margin-left: 150px;
         position: absolute;
         bottom: 20%;
-    }
+    } */
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -296,12 +297,12 @@ section{
         animation: run 20s linear infinite;
         letter-spacing: 8px;
     }
-    .exploreButton{
+    /* .exploreButton{
         text-decoration: none;
         margin-left: 250px;
         position: absolute;
         bottom: 20%;
-    }
+    } */
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px)  and (max-width: 880px) {
@@ -343,12 +344,12 @@ section{
         animation: run 20s linear infinite;
         letter-spacing: 8px;
     }
-    .exploreButton{
+    /* .exploreButton{
         text-decoration: none;
         margin-left: 280px;
         position: absolute;
         bottom: 15%;
-    }
+    } */
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 880px) and (max-width: 992px) {
@@ -397,12 +398,12 @@ section{
         transition: .6s;
         animation: transitionInB 2s;
     }
-    .exploreButton{
+    /* .exploreButton{
         text-decoration: none;
         margin-left: 380px;
         position: absolute;
         bottom: 20%;
-    }
+    } */
 }
 @media only screen and (min-width: 992px) {
     .fullBack{
@@ -450,12 +451,12 @@ section{
         transition: .6s;
         animation: transitionInB 2s;
     }
-    .exploreButton{
+    /* .exploreButton{
         text-decoration: none;
         margin-left: 380px;
         position: absolute;
         bottom: 20%;
-    }
+    } */
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -511,12 +512,12 @@ section{
     .letterChange{
         font-size: 40px;
     }
-    .exploreButton{
+    /* .exploreButton{
         text-decoration: none;
         margin-left: 600px;
         position: absolute;
         bottom: 20%;
-    }
+    } */
     .text-box{
         cursor: pointer;
         text-decoration: none;
