@@ -230,7 +230,7 @@ section{
         animation: transitionInB 2s;
     }
     .text-box p{
-        font-size: 3.8em;
+        font-size: 3em;
         font-weight: 600;
         color: transparent;
         -webkit-text-stroke: 1.15px var(--pink);
@@ -238,7 +238,7 @@ section{
         font-family: 'Josefin Sans', sans-serif; */
     }
     .text-box h1{
-        font-size: 90px;
+        font-size: 80px;
         font-weight: 800;
         /* font-family: 'Oswald', sans-serif; */
         color: transparent;
@@ -259,7 +259,7 @@ section{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .fullBack{
-        background: pink;
+        background: black;
     }
     .logo{
         font-size: 28px;
@@ -306,7 +306,7 @@ section{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px)  and (max-width: 880px) {
     .fullBack{
-        background: yellow;
+        background: black;
     }
     .logo{
         font-size: 28px;
@@ -353,7 +353,7 @@ section{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 880px) and (max-width: 992px) {
     .fullBack{
-        background: green;
+        background: black;
     }
     .logo{
         font-size: 30px;
@@ -406,7 +406,7 @@ section{
 }
 @media only screen and (min-width: 992px) {
     .fullBack{
-        background: red;
+        background: black;
     }
     .logo{
         font-size: 30px;
@@ -460,7 +460,7 @@ section{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .fullBack{
-        background: blue;
+        background: black;
     }
     .logo{
         font-family: "Catamaran", sans-serif;
@@ -501,7 +501,7 @@ section{
 }
 @media only screen and (min-width: 1350px) {
     .fullBack{
-        background: cyan;
+        background: black;
     }
     .logo{
         font-family: "Catamaran", sans-serif;
