@@ -273,13 +273,12 @@ section{
     .secondPage{
         background-color: black;
         border: 2px black solid;
-        margin-top: 100px;
         /* align-items: center; */
         /* justify-content: center; */
     }
     .explore-page{
         margin: 10px;
-        margin-top: 450px;
+        margin-top: 100px;
         text-align: justify;
         text-justify: inter-word;
         font-size: 1.25rem;
@@ -375,12 +374,6 @@ section{
         animation: run 20s linear infinite;
         letter-spacing: 8px;
     }
-    /* .exploreButton{
-        text-decoration: none;
-        margin-left: 280px;
-        position: absolute;
-        bottom: 15%;
-    } */
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 880px) and (max-width: 992px) {
@@ -429,12 +422,6 @@ section{
         transition: .6s;
         animation: transitionInB 2s;
     }
-    /* .exploreButton{
-        text-decoration: none;
-        margin-left: 380px;
-        position: absolute;
-        bottom: 20%;
-    } */
 }
 @media only screen and (min-width: 992px) {
     .fullBack{
@@ -482,12 +469,6 @@ section{
         transition: .6s;
         animation: transitionInB 2s;
     }
-    /* .exploreButton{
-        text-decoration: none;
-        margin-left: 380px;
-        position: absolute;
-        bottom: 20%;
-    } */
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -541,12 +522,6 @@ section{
     .letterChange{
         font-size: 40px;
     }
-    /* .exploreButton{
-        text-decoration: none;
-        margin-left: 600px;
-        position: absolute;
-        bottom: 20%;
-    } */
     .text-box{
         cursor: pointer;
         text-decoration: none;
