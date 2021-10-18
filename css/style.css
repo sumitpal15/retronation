@@ -261,6 +261,13 @@ section{
         animation: run 20s linear infinite;
         letter-spacing: 8px;
     }
+    .element{
+        font-size: 3rem;
+        color: white;
+        text-decoration: none;
+        transition: .6s;
+        animation: transitionInB 2s;
+    }
     .secondPage{
         background-color: black;
         border: 2px black solid;
@@ -324,6 +331,13 @@ section{
         font-size: 1.25rem;
         word-spacing: 2px;
     }
+    .element{
+        font-size: 3rem;
+        color: white;
+        text-decoration: none;
+        transition: .6s;
+        animation: transitionInB 2s;
+    }
     .secondPage{
         background-color: black;
         border: 2px black solid;
@@ -378,6 +392,13 @@ section{
         background-position: 0 0;
         animation: run 20s linear infinite;
         letter-spacing: 8px;
+    }
+    .element{
+        font-size: 3rem;
+        color: white;
+        text-decoration: none;
+        transition: .6s;
+        animation: transitionInB 2s;
     }
     .secondPage{
         background-color: black;
