@@ -97,7 +97,6 @@ li{
     list-style-type: none;
 }
 .element{
-    font-size: 2.7rem;
     color: white;
     text-decoration: none;
     transition: .6s;
@@ -192,13 +191,6 @@ section{
     /* align-items: center; */
     /* justify-content: center; */
 }
-.explore-page{
-    margin: 70px;
-    margin-top: 150px;
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 1.25rem;
-}
 .reveal{
     position: relative;
     transform: translateY(150px);
@@ -227,7 +219,6 @@ section{
 /* .fifthPage{
     background-color:black;
 } */
-
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -333,6 +324,20 @@ section{
         font-size: 1.25rem;
         word-spacing: 2px;
     }
+    .secondPage{
+        background-color: black;
+        border: 2px black solid;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .explore-page{
+        margin: 10px;
+        margin-top: 200px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.25rem;
+        word-spacing: 2px;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px)  and (max-width: 880px) {
@@ -373,6 +378,20 @@ section{
         background-position: 0 0;
         animation: run 20s linear infinite;
         letter-spacing: 8px;
+    }
+    .secondPage{
+        background-color: black;
+        border: 2px black solid;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .explore-page{
+        margin: 10px;
+        margin-top: 200px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.25rem;
+        word-spacing: 2px;
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -422,6 +441,20 @@ section{
         transition: .6s;
         animation: transitionInB 2s;
     }
+    .secondPage{
+        background-color: black;
+        border: 2px black solid;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .explore-page{
+        margin: 10px;
+        margin-top: 200px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.25rem;
+        word-spacing: 2px;
+    }
 }
 @media only screen and (min-width: 992px) {
     .fullBack{
@@ -469,6 +502,20 @@ section{
         transition: .6s;
         animation: transitionInB 2s;
     }
+    .secondPage{
+        background-color: black;
+        border: 2px black solid;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .explore-page{
+        margin: 10px;
+        margin-top: 200px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.25rem;
+        word-spacing: 2px;
+    }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -510,6 +557,19 @@ section{
         animation: run 20s linear infinite;
         letter-spacing: 8px;
     }
+    .secondPage{
+        background-color: black;
+        border: 2px black solid;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .explore-page{
+        margin: 70px;
+        margin-top: 150px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.7rem;
+    }
 }
 @media only screen and (min-width: 1350px) {
     .fullBack{
@@ -549,6 +609,30 @@ section{
         background-position: 0 0;
         animation: run 20s linear infinite;
         letter-spacing: 8px;
+    }
+    .secondPage{
+        background-color: black;
+        border: 2px black solid;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .explore-page{
+        margin: 70px;
+        margin-top: 150px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.7rem;
+    }
+
+    .elements{
+        font-size: 1.7rem;
+        color: white;
+        text-decoration: none;
+        transition: .6s;
+    }
+    .elements:hover{
+        text-decoration: none;
+        color: var(--pink);
     }
 
 }
